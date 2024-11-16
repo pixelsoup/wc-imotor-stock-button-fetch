@@ -2,7 +2,7 @@ class ImotorStock extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
-    this.shadowRoot.innerHTML = /* html */ `
+    this.shadowRoot.innerHTML = /*html*/ `
       <link rel="stylesheet" href="/wc-imotor-stock/wc-imotor-stock.css">
       <div class="stockLoaderItemWrapper">
         <label>Dealer Id</label>
